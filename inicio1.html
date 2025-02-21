@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confissão de Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dialogue-box" id="page1">
+            <div class="npc-name">Miguel: <span class="name">Eu</span></div>
+            <p class="message">"Oh, minha alma perdida, meu coração é teu! A força do meu amor por ti é mais poderosa do que qualquer espada ou feitiço. Cada pensamento que tenho é preenchido por ti, e não importa os desafios que surgem, o que importa é o vínculo eterno que compartilhamos!"</p>
+            <button class="next-btn" onclick="nextPage()">Avançar</button>
+        </div>
+        <div class="dialogue-box" id="page2" style="display: none;">
+            <div class="npc-name">Mensagem Final: <span class="name">Eu</span></div>
+            <p class="message">"Posso não ser o melhor namorado, mas amor você é tçao linda e perfeita quanto esse por do sol!"</p>
+            <!-- Inserir um vídeo fofo -->
+            <div class="video-container">
+                <iframe width="100%" height="315" src="https://www.tiktok.com/@isaqcpx/video/7469017056906595639?q=video%20de%20casal%20fofo&t=1740165961544" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <button class="next-btn" onclick="nextPage()">Avançar</button>
+        </div>
+    </div>
+
+    <script>
+        let currentPage = 1;
+
+        function nextPage() {
+            if (currentPage === 1) {
+                document.getElementById('page1').style.display = 'none';
+                document.getElementById('page2').style.display = 'block';
+                currentPage = 2;
+            } else {
+                alert("Fim da jornada!");
+            }
+        }
+    </script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confissão de Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dialogue-box" id="page1">
+            <div class="npc-name">Miguel: <span class="name">Eu</span></div>
+            <p class="message">"Oh, minha alma perdida, meu coração é teu! A força do meu amor por ti é mais poderosa do que qualquer espada ou feitiço. Cada pensamento que tenho é preenchido por ti, e não importa os desafios que surgem, o que importa é o vínculo eterno que compartilhamos!"</p>
+            <button class="next-btn" onclick="nextPage()">Avançar</button>
+        </div>
+        <div class="dialogue-box" id="page2" style="display: none;">
+            <div class="npc-name">Mensagem Final: <span class="name">Eu</span></div>
+            <p class="message">"Posso não ser o melhor namorado, mas amor você é tçao linda e perfeita quanto esse por do sol!"</p>
+            <!-- Inserir um vídeo fofo -->
+            <div class="video-container">
+                <iframe width="100%" height="315" src="Vídeo sem título ‐ Feito com o Clipchamp.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <button class="next-btn" onclick="nextPage()">Avançar</button>
+        </div>
+    </div>
+
+    <script>
+        let currentPage = 1;
+
+        function nextPage() {
+            if (currentPage === 1) {
+                document.getElementById('page1').style.display = 'none';
+                document.getElementById('page2').style.display = 'block';
+                currentPage = 2;
+            } else {
+                alert("Fim da jornada!");
+            }
+        }
+    </script>
+</body>
+</html>
+>>>>>>> 868f54b2e0402cf39be3a79ab0422d92797c2352
